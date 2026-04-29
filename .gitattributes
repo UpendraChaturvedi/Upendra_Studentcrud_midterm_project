@@ -1,0 +1,20 @@
+# Auto detect text files and normalize line endings
+* text=auto
+
+# Explicitly set text file types
+*.md text
+*.java text
+*.js text
+*.css text
+*.html text
+*.json text
+*.xml text
+*.properties text
+*.sql text
+
+# Shell scripts use LF
+*.sh text eol=lf
+
+# Windows scripts use CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
